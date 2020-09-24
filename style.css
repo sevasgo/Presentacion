@@ -1,0 +1,104 @@
+* {
+    margin: 10px;
+    padding: 0.5px;
+    background-color: #f4fcfc;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    /*Línea para la fuente*/
+    font-weight: bold;
+    /*Peso de la fuente*/
+    background-color: #aeb0fd;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #aeb0fd;
+}
+
+h3 {
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #aeb0fd;
+    margin-bottom: 1px;
+}
+
+h4 {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+header,
+section,
+footer,
+aside,
+nav,
+article {
+    display: block;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+li {
+    text-align: left;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+aside {
+    text-align: center;
+}
+
+strong {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+b {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.agrupar {
+    width: 1000px;
+    margin: auto;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.cabecera {
+    background-color: #aeb0fd;
+    padding: 1px;
+}
+
+.seccion {
+    margin: 0;
+    padding: 1px;
+    width: 700px;
+    float: left;
+}
+
+.costado_foto {
+    width: 280px;
+    margin: 1px;
+    float: right;
+}
+
+.pie_de_pagina {
+    clear: both;
+}

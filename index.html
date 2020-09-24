@@ -3,48 +3,99 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="Presentacion" content="width=device-width, initial-scale=1.0">
-    <title>Presentacion</title>
+    <meta name="Presentacion" content="Esta es un ejercicio de clase de programacion">
+    <title>Hoja de vida</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Esta línea es para traer los estilos de CSS-->
+    <link name="autor" content="Sebastián Vásquez González">
 </head>
 
 <body>
-    <table style="width: 1000px;" , border="1px" , align="center">
-        <tr>
-            <td align="center">
-                <img src="Sebastián Vásquez.jpg" width="500px">
-                <p><strong>Sebastián Vásquez González</strong></p>
-            </td>
-            <td align="center">
-                <p><strong>Estudios:</strong>
-                    Tecnología en desarrollo de sistemas de
-                    información (sexto semestre).
-                    Pedagogía en la UdeA (segundo semestre).
+    <div class="agrupar">
+        <header class="cabecera">
+            <h1>Hoja de vida</h1>
+        </header>
+
+        <nav>
+            <hr />
+            <p><strong>Sebastián Vásquez González</strong></p>
+            <hr />
+        </nav>
+
+        <section class="seccion">
+            <article>
+                <h2>Estudios</h2>
+                <p>Tecnología en desarrollo de sistemas de
+                    información (sexto semestre)<br>
+                    Pedagogía en la UdeA (segundo semestre)<br><br>
+                    <b>Cursos:</b>Taller de software libre,
+                    Francés Nivel I,
+                    Estrategias para el mejoramiento de la comprensión lectora<br><br>
+                    <b>Investigación:</b>Proyecto Desarrollo de OVAS
                 </p>
-                <br>
-                <br>
-                <p><strong>Habilidades:</strong>
-                    Trabajo en equipo, planeación de
-                    estrategias, compromiso y fácil adaptación.
-                </p>
-                <br>
-                <br>
-                <p><strong>Experiencia:</strong>
-                    Practica profesional en el área de TI
-                    en Servicios Nutresa.
-                    Diseñador y creador de E-Books para Santillana USA.
-                    Soporte técnico (SO, BD, Redes de datos, etc).
-                </p>
-                <br>
-                <br>
-                <p><strong>Aficiones o Hobbies:</strong>
-                    Leer, ver documentales, ver películas, juegos de mesa,
-                    juegos onlines y juegos en dispositivo móvil.
-                </p>
-                <br>
-                <br>
-                <p><strong>Contacto:</strong> svasquezg@correo.iue.edu.co</p>
-            </td>
-        </tr>
+            </article>
+            <hr />
+            <article>
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Trabajo en equipo, planeación de estrategias,
+                        compromiso y fácil adaptación.</li>
+                    <li>Uso de herramientas ofimáticas para
+                        elaboración de informes con buena
+                        redacción y ortografía</li>
+                    <li> Conocimiento en metodologías de
+                        agilismo como SCRUM</li>
+                    <li>Manejo de SO basado en Windows y Linux</li>
+                    <li>Conocimiento de redes de datos</li>
+                    <li>Conocimiento en sistemas de gestión de
+                        información</li>
+                    <li>Conocimiento en Bases de Datos</li>
+                </ul>
+            </article>
+            <hr />
+            <article>
+                <h2>Experiencia</h2>
+                <ul>
+                    <li><b>Auxiliar de Soporte Técnico Operativo</b><br>
+                        MEKAGROUP S.A.S
+                        JULIO 29 DE 2019 - MAYO 29 DE 2020</li>
+                    <li><b>Desarrollador y Diseñador de E-Books</b><br>
+                        SANTILLANA USA
+                        ENERO 16 DE 2017 - SEPTIEMBRE 28 DE 2018</li>
+                    <li><b>Soporte Técnico</b><br>
+                        GT GROUP S.A.S
+                        JULIO 12 DE 2016 - SEPTIEMBRE 30 DE 2016</li>
+                    <li><b>Practicante de Sistemas</b><br>
+                        SERVICIOS NUTRESA S.A.S
+                        ENERO 4 DE 2016 - JULIO 3 DE 2016</li>
+                </ul>
+            </article>
+            <hr />
+        </section>
+        <aside class="costado_foto">
+            <br>
+            <img src="imagenes/Foto.PNG" width="250px" alt=Fotografia>
+            <br><br>
+            <h3>Aficiones o Hobbies</h3>
+            <ul>
+                <li>Lectura</li>
+                <li>Ver documentales</li>
+                <li>Ver películas</li>
+                <li>Los juegos de mesa</li>
+                <li>Los juegos online</li>
+                <li>Los juegos en dispositivos moviles</li>
+            </ul>
+            <hr />
+            <h3>Contacto</h3>
+            <p>svasquezg@correo.iue.edu.co
+                sevasgo@gmail.com
+                sevasgo@hotmail.com
+            </p>
+        </aside>
+        <footer>
+            <p class="pie_de_pagina">Elaborado por: Sebastián Vásquez González</p>
+        </footer>
+    </div>
 </body>
 
 </html>
